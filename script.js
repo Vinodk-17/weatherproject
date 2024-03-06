@@ -6,7 +6,7 @@ function GetInfo() {
   
   
   // fetch('https://api.openweathermap.org/data/2.5/forecast?q='+ newName.value+'&appid=32ba0bfed592484379e51106cef3f204')
-  fetch('https://api.openweathermap.org/data/2.5/forecast?q='+ newName.value+'&appid=288d1310dfb64e44755573a455844559')
+  fetch('https://api.openweathermap.org/data/2.5/forecast?q=goregaon&appid=288d1310dfb64e44755573a455844559')
   .then(response => response.json())
   .then(data => {
 
