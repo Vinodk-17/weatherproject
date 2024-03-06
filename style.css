@@ -1787,24 +1787,7 @@ form input[type="reset"] {
   display: table-cell;
   vertical-align: top;
 }
-.roshita {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 
-.roshita .forecast {
-  flex: 0 0 20%; /* Equal width for each forecast */
-  max-width: 20%;
-  margin-bottom: 20px;
-}
-
-@media screen and (max-width: 990px) {
-  .roshita .forecast {
-    flex-basis: 45%; /* Adjust according to screen size */
-    max-width: 45%;
-  }
-}
 
 .forecast-container .forecast:nth-child(even) {
   background-color: #262936;
